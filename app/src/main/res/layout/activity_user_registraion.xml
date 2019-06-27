@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shruthi.elab.User.UserRegistraionActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".CreateAuditor">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Patient Registration"
+            android:textColor="@color/colorchillired"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/input_outline"
+            android:hint="Donar Name"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp" />
+
+
+        <EditText
+            android:id="@+id/edit_phoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/input_outline"
+            android:hint="Contact Number"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp" />
+
+
+        <EditText
+            android:id="@+id/edit_phoneNo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/input_outline"
+            android:hint="Alteranative Number"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/edit_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/input_outline"
+            android:hint="Email ID"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/edit_dob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/input_outline"
+            android:hint="DOB"
+            android:inputType="date"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/edit_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/input_outline"
+            android:hint="Permanent Address"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp" />
+
+
+        <EditText
+            android:id="@+id/edit_bloodGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/input_outline"
+            android:hint="Blood Group"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp" />
+
+        <!-- <EditText
+             android:id="@+id/edit_status"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+             android:background="@drawable/input_outline"
+             android:hint="Status"
+             android:padding="10dp"
+             android:textColor="@color/colorPrimaryDark"
+             android:textSize="15dp" />
+
+         <EditText
+             android:id="@+id/edit_Username"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+             android:background="@drawable/input_outline"
+             android:hint="Auditor Username"
+             android:inputType="text"
+             android:padding="10dp"
+             android:textColor="@color/colorPrimaryDark"
+             android:textSize="15dp" />
+ -->
+
+        <EditText
+            android:id="@+id/edit_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/input_outline"
+            android:hint="Create Your Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="Submit"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp"
+
+            />
+
+    </LinearLayout>
+</ScrollView>

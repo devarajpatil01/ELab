@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "318004870844",
+    "firebase_url": "https://elab-78437.firebaseio.com",
+    "project_id": "elab-78437",
+    "storage_bucket": "elab-78437.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318004870844:android:aba9eac5ae346ce6",
+        "android_client_info": {
+          "package_name": "com.example.shruthi.elab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318004870844-qdug8l4mer5hi2qc6m9dj18tl5h5fpfs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANyYXAXXAYF54AD0kkTiw-eLCAuo4a5ss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318004870844-qdug8l4mer5hi2qc6m9dj18tl5h5fpfs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sendReport"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Send Patient Report" />
+
+        <item
+            android:id="@+id/nav_appointments"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="View Appointments" />
+
+        <item
+            android:id="@+id/nav_reports"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="View Patient Reports" />
+
+        <item
+            android:id="@+id/nav_addTechnicians"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Add Technicians" />
+
+        <item
+            android:id="@+id/nav_viewTechnicians"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="View Technicians"/>
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Logout" />
+    </group>
+
+
+</menu>

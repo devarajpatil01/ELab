@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Jun 25 23:09:00 IST 2019
+0.baseType=DIRECTORY
+0.base=E\:\\AndroidApplications2019\\Radient\\ELab-master\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+0.path=classes.dex
+0.set=DEX
+count=1

@@ -1,0 +1,4 @@
+#Sun Jun 23 19:46:30 IST 2019
+base.0=F\:\\NewELab\\ELab-master-20190511T105924Z-001\\ELab-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+path.0=classes.dex
+renamed.0=classes.dex
